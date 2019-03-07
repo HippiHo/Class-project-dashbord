@@ -1,0 +1,18 @@
+.giphy {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif {
+  padding: 1rem;
+}
+
+.link {
+  padding: 10px;
+  background: black;
+  color: white;
+  display: inline-block;
+}

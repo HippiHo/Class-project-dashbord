@@ -1,0 +1,24 @@
+/* @import url("https://fonts.googleapis.com/css?family=Architects+Daughter"); */
+@import url("https://fonts.googleapis.com/css?family=Emilys+Candy");
+
+.advice {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adviceBox {
+  margin: 3rem;
+}
+
+.adviceBox blockquote {
+  /* font-family: "Architects Daughter", cursive; */
+  font-family: "Emilys Candy", cursive, Arial, Helvetica, sans-serif;
+  color: #f41478;
+  font-size: 2rem;
+  padding: 2rem;
+  background: #e8e8e885;
+  border-radius: 4px;
+}

@@ -1,0 +1,66 @@
+.colors {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.palettes {
+  border: black solid 1px;
+  margin: 0 2rem 2rem 2rem;
+  border-radius: 4px;
+  padding: 1rem;
+  text-align: left;
+  display: inline-grid;
+  grid-template-columns: 20% 20% 30% 30%;
+}
+
+.title {
+  margin-right: 1rem;
+}
+
+.title a span {
+  width: 100%;
+  color: #2b2b2b;
+  font-weight: bold;
+  vertical-align: 50%;
+  font-size: 1.7rem;
+}
+
+.creator {
+  margin-right: 1rem;
+}
+
+.creator span {
+  color: grey;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.example {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.example img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.hexes {
+  margin-right: 1rem;
+}
+
+.hexes span {
+  vertical-align: 40%;
+  width: 100%;
+  font-size: 1rem;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  height: 3rem;
+}

@@ -1,0 +1,49 @@
+.drumkit {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+button {
+  margin: 0;
+  padding: 0.2rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 15vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 0.1rem solid rgb(255, 255, 255);
+  padding: 0.2rem;
+  transition: all 0.07s ease;
+  width: 5.6rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.938);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 3rem;
+}
+
+.sound {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}

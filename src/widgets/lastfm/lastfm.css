@@ -1,0 +1,41 @@
+.lastfm {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.artists {
+  border: black solid 1px;
+  margin: 0 2rem 2rem 2rem;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.name {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #87172a;
+  font-weight: bold;
+  vertical-align: 50%;
+  width: 30%;
+}
+.artistImage {
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.listeners {
+  display: inline-block;
+  width: 20%;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+.radioLink {
+  display: inline-block;
+  width: 20%;
+  vertical-align: center;
+}

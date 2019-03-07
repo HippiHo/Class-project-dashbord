@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+}
+.main {
+  display: flex;
+}
+.widget-container {
+  display: flex;
+  flex-direction: row;
+  padding: .5rem;
+  border-radius: .4rem;
+}
+
+@keyframes color-shift {
+  0% {border: 3px solid #F44336}
+  25% {border: 3px solid #2196F3}
+  50% {border: 3px solid #4CAF50}
+  75% {border: 3px solid #FFEB3B}
+  100% {border: 3px solid #F44336}
+}
+.big {
+  height: 400px;
+  width: 99%;
+  margin: 5px 0.5% 5px 0.5%;
+}
+.medium {
+  height: 400px;
+  width: 49%;
+  margin: 5px 0.5% 5px 0.5%;
+}
+@media(max-width: 996px) {
+  .medium {
+    width: 99%;
+  }
+}
+.small {
+  height: 400px;
+  width: 24%;
+  margin: 5px 0.5% 5px 0.5%;
+}
+@media(max-width: 996px) {
+  .small {
+    width: 49%;
+  }
+}
+@media(max-width: 556px) {
+  .small {
+    width: 99%;
+  }
+}
+a {
+  text-decoration: none;
+  color: var(--main-orange);
+}
+.centerd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
